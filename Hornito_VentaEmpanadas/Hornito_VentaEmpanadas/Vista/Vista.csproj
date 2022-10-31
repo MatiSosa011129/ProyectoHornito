@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{66CCF8D4-E625-486A-943F-24E542A518FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Vista</RootNamespace>
+    <AssemblyName>Vista</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FRMAltaEmpanadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMAltaEmpanadas.Designer.cs">
+      <DependentUpon>FRMAltaEmpanadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMBorrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMBorrarCliente.Designer.cs">
+      <DependentUpon>FRMBorrarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMBorrarEmpanada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMBorrarEmpanada.Designer.cs">
+      <DependentUpon>FRMBorrarEmpanada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMBorrarPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMBorrarPedido.Designer.cs">
+      <DependentUpon>FRMBorrarPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMClientes.Designer.cs">
+      <DependentUpon>FRMClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMClientesNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMClientesNuevo.Designer.cs">
+      <DependentUpon>FRMClientesNuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMEmpanada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMEmpanada.Designer.cs">
+      <DependentUpon>FRMEmpanada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMLogin.Designer.cs">
+      <DependentUpon>FRMLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMMenu.Designer.cs">
+      <DependentUpon>FRMMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMModificarCliente.Designer.cs">
+      <DependentUpon>FRMModificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMModificarEmpanada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMModificarEmpanada.Designer.cs">
+      <DependentUpon>FRMModificarEmpanada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMModificarPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMModificarPedido.Designer.cs">
+      <DependentUpon>FRMModificarPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMPedidosNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMPedidosNuevo.Designer.cs">
+      <DependentUpon>FRMPedidosNuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMPedidosProceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMPedidosProceso.Designer.cs">
+      <DependentUpon>FRMPedidosProceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FRMAltaEmpanadas.resx">
+      <DependentUpon>FRMAltaEmpanadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMBorrarCliente.resx">
+      <DependentUpon>FRMBorrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMBorrarEmpanada.resx">
+      <DependentUpon>FRMBorrarEmpanada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMBorrarPedido.resx">
+      <DependentUpon>FRMBorrarPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMClientes.resx">
+      <DependentUpon>FRMClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMClientesNuevo.resx">
+      <DependentUpon>FRMClientesNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMEmpanada.resx">
+      <DependentUpon>FRMEmpanada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMLogin.resx">
+      <DependentUpon>FRMLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMMenu.resx">
+      <DependentUpon>FRMMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMModificarCliente.resx">
+      <DependentUpon>FRMModificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMModificarEmpanada.resx">
+      <DependentUpon>FRMModificarEmpanada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMModificarPedido.resx">
+      <DependentUpon>FRMModificarPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMPedidosNuevo.resx">
+      <DependentUpon>FRMPedidosNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMPedidosProceso.resx">
+      <DependentUpon>FRMPedidosProceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Logica.Caja.datasource" />
+    <None Include="Properties\DataSources\Logica.Cliente.datasource" />
+    <None Include="Properties\DataSources\Logica.Empanada.datasource" />
+    <None Include="Properties\DataSources\Logica.Pedido.datasource" />
+    <None Include="Properties\DataSources\Logica.Stock.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logica\Logica.csproj">
+      <Project>{3bd08d0f-8339-4520-98ee-514b2dc93631}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

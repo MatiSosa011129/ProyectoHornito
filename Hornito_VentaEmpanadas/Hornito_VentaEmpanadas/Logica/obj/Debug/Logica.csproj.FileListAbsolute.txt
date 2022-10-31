@@ -1,0 +1,9 @@
+C:\repo\BitBucket\Hornito_VentaEmpanadas\Hornito_VentaEmpanadas\Logica\bin\Debug\Logica.dll
+C:\repo\BitBucket\Hornito_VentaEmpanadas\Hornito_VentaEmpanadas\Logica\bin\Debug\Logica.pdb
+C:\repo\BitBucket\Hornito_VentaEmpanadas\Hornito_VentaEmpanadas\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\repo\BitBucket\Hornito_VentaEmpanadas\Hornito_VentaEmpanadas\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\repo\BitBucket\Hornito_VentaEmpanadas\Hornito_VentaEmpanadas\Logica\obj\Debug\Logica.dll
+C:\repo\BitBucket\Hornito_VentaEmpanadas\Hornito_VentaEmpanadas\Logica\obj\Debug\Logica.pdb
+C:\repo\BitBucket\Hornito_VentaEmpanadas\Hornito_VentaEmpanadas\Logica\bin\Debug\Newtonsoft.Json.dll
+C:\repo\BitBucket\Hornito_VentaEmpanadas\Hornito_VentaEmpanadas\Logica\bin\Debug\Newtonsoft.Json.xml
+C:\repo\BitBucket\Hornito_VentaEmpanadas\Hornito_VentaEmpanadas\Logica\obj\Debug\Logica.csproj.CopyComplete

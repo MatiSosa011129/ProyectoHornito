@@ -1,0 +1,1 @@
+[{"idEmpanada":1,"precioEmpanada":250,"gustoEmpanada":"carne"},{"idEmpanada":3,"precioEmpanada":340,"gustoEmpanada":"salada"}]
