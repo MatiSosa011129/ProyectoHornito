@@ -1,1 +1,1 @@
-[{"idEmpanada":1,"precioEmpanada":250,"gustoEmpanada":"carne"},{"idEmpanada":3,"precioEmpanada":340,"gustoEmpanada":"salada"}]
+[{"idEmpanada":1,"precioEmpanada":180,"gustoEmpanada":"Jamón y Queso"},{"idEmpanada":2,"precioEmpanada":200,"gustoEmpanada":"Matambre"},{"idEmpanada":3,"precioEmpanada":190,"gustoEmpanada":"Verdura"}]
